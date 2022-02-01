@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat-app</title>
+  </head>
+  <body>
+    App
+    <form id="message-form">
+      <input name="message" type="text" placeholder="Message" />
+      <button>Send</button>
+    </form>
+    <button id="send-location">Send location</button>
+    <div class="message-box"></div>
+    <!-- <h4 id="count"></h4>
+    <button id="reset">Reset</button>
+    <button id="inc">+1</button> -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/scripts/chat.js"></script>
+  </body>
+</html>
