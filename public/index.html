@@ -5,15 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat-app</title>
+    <link rel="icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/styles.min.css">
   </head>
   <body>
-    App
-    <div id="messages"></div>
-    <form id="message-form">
-      <input name="message" type="text" placeholder="Message" />
-      <button>Send</button>
-    </form>
-    <button id="send-location">Send location</button>
+    <div class = "chat"> 
+      <div class="chat__sidebar">
+      </div>
+      <div class="chat__main">
+        <div id="messages"></div>
+        <form id="message-form">
+          <input name="message" type="text" placeholder="Message" />
+          <button>Send</button>
+        </form>
+        <button id="send-location">Send location</button>
+      </div>
+    </div>
+    
+   
+    
     <div class="message-box"></div>
     <!-- <h4 id="count"></h4>
     <button id="reset">Reset</button>
